@@ -4,7 +4,8 @@
 Ce projet est un site web de voyage développé dans le cadre d'un cours sur les frameworks web. Il utilise HTML, CSS et JavaScript pour créer une interface utilisateur attrayante et interactive pour les utilisateurs qui souhaitent explorer différentes destinations de voyage.
 
 ## Captures d'écran
-<img width="935" alt="image" src="https://github.com/IsmaGSW78/Travel_Website/assets/126653655/5f58df8f-4f58-4978-bc9b-1a7b8cbe678a">
+<img width="932" alt="image" src="https://github.com/IsmaGSW78/Travel_Website/assets/126653655/51199412-09da-4363-a3d2-287fc041e891">
+
 
 
 ## Installation
