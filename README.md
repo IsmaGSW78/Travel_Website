@@ -1,4 +1,4 @@
-# Site de Voyage : Travelity
+# Site de Voyage : NAUMADE
 
 ## Description
 Ce projet est un site web de voyage développé dans le cadre d'un cours sur les frameworks web. Il utilise HTML, CSS et JavaScript pour créer une interface utilisateur attrayante et interactive pour les utilisateurs qui souhaitent explorer différentes destinations de voyage.
