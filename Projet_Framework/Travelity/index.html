@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travelity</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <a href="#">Travelity</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Accueil</a></li>
+          <li class="link"><a href="#offer">Offre</a></li>
+          <li class="link"><a href="#service">Service</a></li>
+          <li class="link"><a href="#client">Client</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav__btns">
+          <button class="btn">S'inscrire</button>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Les Plus Beaux<br />Endroits Dans Le<br />Monde!</h1>
+      </div>
+    </header>
+
+    <section class="section__container offer__container" id="offer">
+      <div class="offer__image">
+        <img src="assets/offer.jpg" alt="offre" />
+      </div>
+      <div class="offer__content">
+        <h3 class="section__subheader">OFFRE EXCLUSIVE</h3>
+        <h2 class="section__header">
+          C'est le meilleur moment pour partir en excursion
+        </h2>
+        <p class="section__description">
+          Que vous recherchiez les couleurs vibrantes de l'automne, les plages
+          ensoleillées de l'été ou les paysages sereins de l'hiver, nous vous
+          fournirons des informations sur les saisons idéales pour profiter au
+          maximum de votre expérience de voyage.
+        </p>
+        <h5>3 Jours / 4 Nuits</h5>
+        <div class="offer__ratings">
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+          <span><i class="ri-star-fill"></i></span>
+        </div>
+        <div class="offer__btn">
+          <button class="btn">
+            Réserver Maintenant <span><i class="ri-arrow-right-line"></i></span>
+          </button>
+          <h4>2356 €</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <h3 class="section__subheader">NOS SERVICES</h3>
+      <h2 class="section__header">
+        Nous vous proposons les plus belles destinations du monde !
+      </h2>
+      <div class="service__grid">
+        <div class="service__card">
+          <img src="assets/service-1.jpg" alt="service" />
+          <div class="service__content">
+            <h4>Expériences Sur-Mesure pour un Séjour Parfait</h4>
+            <p>Itinéraires Personnalisés</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">329 €</div>
+            </div>
+          </div>
+        </div>
+        <div class="service__card">
+          <img src="assets/service-2.jpg" alt="service" />
+          <div class="service__content">
+            <h4>Explorez en Toute Confiance, Guidé par des Experts Locaux</h4>
+            <p>Visites Guidées par des Experts</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">259 €</div>
+            </div>
+          </div>
+        </div>
+        <div class="service__card">
+          <img src="assets/service-3.jpg" alt="service" />
+          <div class="service__content">
+            <h4>Organisation Sans Tracas pour des Vacances Sans Stress</h4>
+            <p>Planification de Voyage</p>
+            <div class="service__card__footer">
+              <div class="service__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <div class="service__price">439 €</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="client__image">
+        <img src="assets/client-1.jpg" alt="client" />
+      </div>
+      <div class="client__content">
+        <h3 class="section__subheader">TÉMOIGNAGES</h3>
+        <h2 class="section__header">Ce que disent nos clients</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Les visites guidées par des experts m'ont permis de comprendre
+                  en profondeur la culture locale. Notre guide était non
+                  seulement compétent mais aussi passionné par la mise en valeur
+                  des joyaux cachés qui ne figurent pas dans les guides
+                  touristiques classiques.
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-1.jpg" alt="client" />
+                  <div>
+                    <h4>Ismaël Charni</h4>
+                    <h5>Eutidant</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Grâce au service de planification de voyage sans faille, mes
+                  vacances ont été sans stress du début à la fin. Tout était
+                  organisé méticuleusement, me laissant plus de temps pour
+                  profiter de la destination sans me soucier des détails.
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-2.jpg" alt="client" />
+                  <div>
+                    <h4>Pierre Sisson</h4>
+                    <h5>Enseignant</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Les expériences VIP exclusives ont élevé mon voyage à un tout
+                  autre niveau. Du saut de file d'attente aux visites privées,
+                  c'était une escapade luxueuse. Je recommande vivement ce
+                  service à ceux qui cherchent à ajouter une touche d'opulence à
+                  leurs voyages.
+                </p>
+                <div class="client__details">
+                  <img src="assets/user-3.jpg" alt="client" />
+                  <div>
+                    <h4>Kylian Mbappe</h4>
+                    <h5>Sportif Professionel</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="client-swiper-btns">
+            <div class="swiper-prev"><i class="ri-arrow-left-line"></i></div>
+            <div class="swiper-next"><i class="ri-arrow-right-line"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="banner__wrapper">
+        <div class="banner__card">
+          <img src="assets/banner-1.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Bora Bora</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Laissez-vous séduire par Bora Bora, un paradis tropical entouré
+              d'eaux turquoise et de récifs coralliens.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/banner-2.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Parc National de Banff</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Randonnez à travers les prairies alpines, faites un trajet
+              panoramique le long de l'Icefields Parkway et profitez de la
+              beauté des Rocheuses canadiennes.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/banner-3.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Barcelone</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              La vie de rue vibrante de la ville, sa cuisine de classe mondiale
+              et ses plages méditerranéennes en font une destination
+              incontournable.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/banner-4.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Le Cap</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Du célèbre Mont Table et de l'historique Île Robben aux
+              pittoresques vignobles du Cap, ce joyau sud-africain offre un
+              mélange de beauté naturelle, d'histoire et de sophistication
+              moderne.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/banner-5.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Tokyo</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Tokyo, une mégapole effervescente où la tradition rencontre la
+              modernité dans un tourbillon de néons et de temples ancestraux,
+              offrant une expérience unique au cœur de la culture japonaise.
+            </p>
+          </div>
+        </div>
+        <div class="banner__card">
+          <img src="assets/banner-6.jpg" alt="banner" />
+          <div class="banner__content">
+            <h4>Santorin</h4>
+            <div class="banner__ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+            <p>
+              Connu pour ses couchers de soleil romantiques, sa culture vibrante
+              et sa délicieuse cuisine, cette île grecque est un paradis pour
+              les voyageurs en quête de détente et d'aventure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container newsletter__container" id="contact">
+      <div class="newsletter__content">
+        <h2 class="section__header">Inscrivez-vous à notre Newsletter</h2>
+        <p class="section__description">
+          Rejoignez notre communauté de voyageurs passionnés et recevez
+          régulièrement des doses de passion pour les voyages directement dans
+          votre boîte de réception.
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Entrez votre adresse e-mail" />
+          <button class="btn">Soumettre</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <a href="#home">Travelity</a>
+          </div>
+          <p>
+            Découvrez un monde de possibilités infinies alors que nous
+            sélectionnons le meilleur en matière de voyages, des joyaux cachés
+            aux sites emblématiques.
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-pinterest-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Liens Rapides</h4>
+          <ul class="footer__links">
+            <li><a href="#">Explorer les Destinations</a></li>
+            <li><a href="#">Offres Exclusives</a></li>
+            <li><a href="#">Conseils de Voyage & Guides</a></li>
+            <li><a href="#">Réservez Votre Aventure</a></li>
+            <li><a href="#">Rejoignez notre Communauté</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Entreprise</h4>
+          <ul class="footer__links">
+            <li><a href="#">À Propos de Nous</a></li>
+            <li><a href="#">Notre Équipe</a></li>
+            <li><a href="#">Conditions Générales</a></li>
+            <li><a href="#">Politique de Confidentialité</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contactez-Nous !</h4>
+          <ul class="footer__links">
+            <li><a href="#">Support Client</a></li>
+            <li><a href="#">Demandes Commerciales</a></li>
+            <li><a href="#">Partenariats</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Droit d'auteur © 2024 CHARNI Ismaël. Tous droits réservés.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
